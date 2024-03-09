@@ -1,0 +1,25 @@
+.project1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+.title-project1{
+    font-size: 50px;
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: 300px;
+}
+.p-pj1{
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+}
+.p2-pj1{
+    font-size: 20px;
+    color: rgb(163, 163, 163);
+    border-bottom: 2px solid rgb(90, 201, 90);
+    width: 300px;
+}
