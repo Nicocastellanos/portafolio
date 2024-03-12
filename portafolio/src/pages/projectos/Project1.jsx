@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Project1() {
   return (
-    <div className='project1-container'>
+    <div className='projects-container'>
         <h1 className='title-project1'>Todo Task</h1>
         <img src="" alt="Todo task" />
         <p className='p-pj1'>
@@ -14,15 +14,18 @@ export default function Project1() {
           saber que cosas tenemos pendientes por hacer, y que cosas ya realizamos
         </p>
         <p className='p2-pj1'>Este proyecto lo realice con: </p>
-          <ul>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>Css</li>
-            <li>React js</li>
-            <li>Mui material</li>
-            <li>Github</li>
+          <ul className='ul-pj1'>
+            <li className='li-1'>HTML</li>
+            <li className='li-1'>JavaScript</li>
+            <li className='li-1'>Css</li>
+            <li className='li-1'>React js</li>
+            <li className='li-1'>Mui material</li>
+            <li className='li-1'>Git y Github</li>
           </ul>
-        <Link to='https://nicocastellanos.github.io/Todo-task/'>Ver Projecto</Link>
+        <div className='links'>
+          <Link to='https://nicocastellanos.github.io/Todo-task/' className='link-pj1' target='_blank'>Ver Projecto</Link>
+          <Link to='https://github.com/Nicocastellanos/Todo-task' className='link-pj1'>View Code</Link>
+        </div>
     </div>
   )
 }

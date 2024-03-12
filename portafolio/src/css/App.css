@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: "Inter", sans-serif; 
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(20, 20, 20);
 }
 hr{
     width: 1500px;
@@ -26,5 +26,5 @@ hr{
     font-size: 70px;
 }
 .footer{
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(37, 36, 36);
 }
