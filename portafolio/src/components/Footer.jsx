@@ -8,7 +8,7 @@ export default function Footer() {
       <div className='contacto'>
         <div className='titles'>
           <h1 className='contact-title'>Contact</h1>
-          <p className='message'>Si estas interesado en conocerme mas y conocer a mas profundidad mis poryectos, da click al boton y enviame un mensaje</p>
+          <p className='message'>Si estas interesado en conocerme mas y conocer a mas profundidad mis proyectos, da click al boton y enviame un mensaje</p>
         </div>
         <a className='button-footer' href='mailto:nicolas.catellanos012@gmail.com'>Contact Me</a>
       </div>

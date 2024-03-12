@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 0 0 200px;
+    margin: 250px 0 0 200px;
 }
 .contacto{
     display: flex;
@@ -48,6 +48,7 @@
 .contact-title{
     color: rgb(236, 236, 236);
     font-size: 80px;
+    margin-top: -10px;
 }
 .label{
     color: rgb(141, 141, 141);
