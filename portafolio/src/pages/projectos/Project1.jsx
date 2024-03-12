@@ -14,15 +14,15 @@ export default function Project1() {
           saber que cosas tenemos pendientes por hacer, y que cosas ya realizamos
         </p>
         <p className='p2-pj1'>Este proyecto lo realice con: </p>
-          <ul>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>Css</li>
-            <li>React js</li>
-            <li>Mui material</li>
-            <li>Github</li>
+          <ul className='ul-pj1'>
+            <li>- HTML</li>
+            <li>- JavaScript</li>
+            <li>- Css</li>
+            <li>- React js</li>
+            <li>- Mui material</li>
+            <li>- Github</li>
           </ul>
-        <Link to='https://nicocastellanos.github.io/Todo-task/'>Ver Projecto</Link>
+        <Link to='https://nicocastellanos.github.io/Todo-task/' className='link-pj1' target='_blank'>Ver Projecto</Link>
     </div>
   )
 }

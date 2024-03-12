@@ -58,9 +58,10 @@
     color: rgb(231, 231, 231);
     border-bottom: 2px solid rgb(90, 201, 90);
     padding: 8px;
-    margin-top: 50px;
+    margin-top: 10px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 18px;
+    text-decoration: none;
 }
 .my-name{
     border-bottom: 10px solid rgb(90, 201, 90);

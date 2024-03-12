@@ -10,13 +10,12 @@ export default function Header() {
           <p className='descripcion'>Vivo en Colombia, y soy un apasionado desarrollador web
             que le gusta enfocarse en UX/UI. 
           </p>
-        <button className='button'>CONTACT ME</button>
+          <a href="mailto:nicolas.castellanos012@gmail.com" className='button' target='_blank'>Contact Me</a>
         </div>
-        
         <div className='imagen'>
            <img src="./src/assets/images/foto.jpg" alt="foto" className='img'/> 
         </div>
-        
+  
     </div>
   )
 }

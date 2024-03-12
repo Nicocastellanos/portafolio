@@ -56,13 +56,22 @@
 .button-footer{
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid rgb(90, 201, 90);
-    width: 100px;
-    font-size: 15px;
-    margin: 50px 0 0 400px;
-    padding: 4px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    margin: 200px 0 0 400px;
+    padding: 14px 2px 2px 2px;
     color: rgb(236, 236, 236);
     cursor: pointer;
+    border-radius: 0rem;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+}
+.button-footer:hover{
+    background-color: gray;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
 }
 .alert{
     color: rgb(99, 7, 7);
