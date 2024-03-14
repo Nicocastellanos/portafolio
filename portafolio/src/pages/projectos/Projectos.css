@@ -18,11 +18,12 @@
     color: transparent;
     width: 300px;
 }
-.p-pj1{
+.p-pj{
     font-size: 20px;
     color: rgb(163, 163, 163);
+    width: 1200px;
 }
-.p2-pj1{
+.p2-pj{
     font-size: 20px;
     color: rgb(219, 219, 219);
     padding-bottom: 8px;
@@ -57,13 +58,8 @@
 
 /* projecto 2 */
 .title-project2{
-    font-size: 50px;
-    /* background: linear-gradient(90deg, rgb(185, 127, 51) 16%, rgb(168, 78, 37) 36%, rgb(219, 112, 41) 62%, rgb(195, 78, 42) 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text; */
-    color: rgb(226, 220, 220);
-    
+    font-size: 50px;  
+    color: rgb(226, 220, 220); 
 }
 .li-2{
     background: rgb(2,0,36);
@@ -74,4 +70,24 @@
     color: transparent;
     font-size: 18px;
     margin-top: 12px;
+    width: 300px;
+}
+/* projecto 3 */
+.title-project3{
+    font-size: 50px;
+    background: linear-gradient(90deg, rgb(219, 125, 70) 16%, rgb(190, 108, 41) 36%, rgb(218, 117, 50) 62%, rgb(195, 85, 42) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 300px;
+}
+.li-3{
+    background: linear-gradient(90deg, rgb(219, 125, 70) 16%, rgb(190, 108, 41) 36%, rgb(218, 117, 50) 62%, rgb(195, 85, 42) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    margin-top: 12px;
+    width: 300px;
 }
