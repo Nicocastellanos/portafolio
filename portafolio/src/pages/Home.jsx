@@ -20,12 +20,10 @@ export default function Home() {
         </div>
           <h1 className="title-project">Projects</h1>
         <div className="project">
-            <Link to='/project1'><Projects img ="./src/assets/images/foto.jpg" titulo="Todo Task" tec="HTML | CSS | JavaScript | React.js | Material UI"/></Link>
-            <Link to='/project2'><Projects img ="./src/assets/images/foto.jpg" titulo="Gestor de Tareas" tec="MongoDB | Express.js | Node.js"/></Link>
-            <Link to='/project3'><Projects img ="./src/assets/images/foto.jpg" titulo="Evently" tec="HTML | CSS | JavaScript | React.js | ChakraUI"/></Link>
-            <Link to='/project4'><Projects img ="./src/assets/images/foto.jpg" titulo="Prueba 4" tec="HTML | CSS | JavaScript"/></Link>
-            <Link to='/project5'><Projects img ="./src/assets/images/foto.jpg" titulo="Prueba 5" tec="HTML | CSS"/></Link>
-            <Link to='/project6'><Projects img ="./src/assets/images/foto.jpg" titulo="Prueba 6" tec="HTML | CSS  | JavaScript"/></Link>
+            <Link to='/TodoTask'><Projects img ="./src/assets/images/foto.jpg" titulo="Todo Task" tec="HTML | CSS | JavaScript | React.js | Material UI"/></Link>
+            <Link to='/GestorDeTareas'><Projects img ="./src/assets/images/foto.jpg" titulo="Gestor de Tareas" tec="MongoDB | Express.js | Node.js"/></Link>
+            <Link to='/Evently'><Projects img ="./src/assets/images/foto.jpg" titulo="Evently" tec="HTML | CSS | JavaScript | React.js | ChakraUI"/></Link>
+            <Link to='/Oddy'><Projects img ="./src/assets/images/foto.jpg" titulo="Oddy" tec="HTML | CSS | JavaScript | React.js"/></Link>
         </div>
     </div>
   )
